@@ -1,0 +1,25 @@
+#tabla {
+  border: 10px solid black;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-left: 30%;
+  margin-top: 10%;
+  padding: 1px;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.polje {
+  height: 50px;
+  width: 50px;
+  background-color: #3d3d3d;
+}
+/*# sourceMappingURL=style.css.map */

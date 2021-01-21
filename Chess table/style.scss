@@ -1,0 +1,18 @@
+#tabla {
+  border: 10px solid black;
+  height: fit-content;
+  width: fit-content;
+  margin-left: 30%;
+  margin-top: 10%;
+  padding: 1px;
+}
+
+.row {
+  display: flex;
+}
+
+.polje {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(61, 61, 61);
+}
