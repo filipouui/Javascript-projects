@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Pricing | Filip Nikolic</title>
+</head>
+<body>
+
+    <div class="main-background">
+        <div class="header">
+            <h1>Simple, traffic-based pricing</h1>
+            <p>Sign-up for our 30-day trial. No credit card required.</p>
+        </div>
+
+        <div class="white-background">
+        
+            <div class="card">
+
+                <div class="card-pricing">
+
+                    <div class="first-section">
+                        <div>
+                            <span id="page-views">100K</span>
+                            <span>PAGEVIEWS</span>
+                        </div>
+                        <div class="card-number">
+                            <p id="dollar">$</p><p id="money">16.00</p><span>/month</span>
+                        </div>
+                    </div>
+
+
+                    <div class="slidecontainer">
+                        <input type="range" min="1" max="100" value="50" class="range-slider" id="myRange">
+                    </div>
+
+                    <div class="billing">
+                        <div class="monthly-billing">
+                            <span for="">Monthly Billing</span>
+                            <label class="switch">
+                                <input id="checkbox" type="checkbox" checked>
+                                <span class="slider round"></span>
+                            </label>
+                        </div>
+                        
+                        <span id="yearly-billing">Yearly Billing</span>
+                        <div id="discount">
+                            <span id="yearly-discount">25%    </span><span>discount</span>
+                        </div>  
+                                                
+                    </div>
+
+                    <div class="button-section">
+                        <ul>
+                            <li><span id="first-check">&#x2714;</span> Unlimited websites</li>
+                            <li><span id="second-check">&#x2714;</span> 100% data ownership</li>
+                            <li id="third-check-li"><span id="third-check">&#x2714;</span> Email reports</li>
+                        </ul>
+                        <button id="button">Start my trial</button>
+                    </div>
+                </div>
+
+
+
+            </div>
+        
+        </div>
+        
+    </div>
+    
+    
+    <script src="./javascript.js"></script>
+</body>
+</html>

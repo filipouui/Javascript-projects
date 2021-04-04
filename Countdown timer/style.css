@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Amatic SC", cursive;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(4, 0, 20);
+}
+
+.mountains {
+  background-image: url(./images/pattern-hills.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25vh;
+  width: 100vw;
+  position: absolute;
+  bottom: 0;
+}
+
+.stars {
+  background-image: url(./images/bg-stars.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 75vh;
+  width: 100vw;
+  position: absolute;
+}
+
+h1 {
+  position: absolute;
+  color: white;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -15%);
+  font-size: 4rem;
+  font-weight: lighter;
+}
+
+.main {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  transform: translate(-35%, -35%);
+  height: 200px;
+  width: 900px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card {
+  width: 150px;
+  height: 120px;
+  background-color: rgb(5, 3, 26);
+  border: rgb(146, 162, 207) 1px solid;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.span {
+  font-size: 2.5rem;
+  color: rgb(146, 162, 207);
+}
+
+.card span {
+  color: rgb(243, 10, 154);
+  font-size: 5rem;
+  font-weight: bolder;
+}
+
+.main .card:hover {
+  cursor: pointer;
+  border: turquoise 1px solid;
+}
+
+.choice-date {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -65%);
+  color: white;
+  display: flex;
+  justify-content: center;
+  width: 40vw;
+}
+
+.choice-date p {
+  font-size: 2rem;
+  color: rgb(192, 192, 192);
+  margin-right: 20px;
+}
+
+.choice-date input {
+  font-size: 1.3rem;
+  border-radius: 5px;
+  padding-left: 25px;
+  background-color: rgb(5, 0, 34);
+  border: 1px solid turquoise;
+  color: rgb(243, 10, 154);
+}
